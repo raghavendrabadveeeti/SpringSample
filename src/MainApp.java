@@ -12,6 +12,7 @@ public class MainApp {
 
         Car obj = (Car) context.getBean("car");
 
+        System.out.println("Hellow World ");
         System.out.println(obj.getBrand());
         System.out.println(obj.getModelName());
         System.out.println(obj.getBrand());
